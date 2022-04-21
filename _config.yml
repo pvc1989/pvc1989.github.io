@@ -316,7 +316,7 @@ plugins: # <https://jekyllrb.com/docs/plugins/>
   - jekyll-feed # 为站点生成RSS源
   - jekyll-remote-theme # 使用remote_theme插件实现主题的前后分离，详见<https://github.com/benbalter/jekyll-remote-theme/>
 
-remote_theme: https://github.com/pvcStillInGradSchool/jekyll-theme-WuK
+remote_theme: https://github.com/pvc1989/jekyll-theme-WuK
 
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
   with_frontmatter: true # 支持带有yaml头的README
