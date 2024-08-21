@@ -9,7 +9,7 @@ title: Resume
 
 > <i class="fa-solid fa-envelope"></i> <weicheng.pei@icloud.com>\
 > <i class="fas fa-mobile-alt"></i> +86-188-1143-5549\
-> <i class="fa-brands fa-github"></i> [https://github.com/pvc1989](https://github.com/pvc1989)
+> <i class="fa-brands fa-github"></i> [https://pvc1989.github.io](https://pvc1989.github.io)
 
 ----
 
@@ -35,7 +35,7 @@ title: Resume
 
 ## Publications
 
-### PhD Thesis
+### <i class="fa-solid fa-graduation-cap"></i> PhD Thesis
 
 Title
 :   Study on Computational Method for Aerodynamic Interference of Shipborne Helicopters
@@ -70,7 +70,7 @@ Keywords
 [miniWiki](https://github.com/pvc1989/miniWiki)
 : maintains notes, tutorials and cheatsheets on mathematics, physics, algorithms ([data structures](https://pvc1989.github.io/miniWiki/algorithms/data_structures/)), programming([C++](https://pvc1989.github.io/miniWiki/programming/languages/cpp.html), [Python](https://pvc1989.github.io/miniWiki/programming/languages/python.html), [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)), etc.
 
-### Data Structure and Algorithms
+### <i class="fa-solid fa-arrow-up-a-z"></i> Data Structure and Algorithms
 
 - [LeetCode](https://leetcode.com/u/pvc1989/) 997/3261 solved (mainly in C++)
   - <span style="color: green">Easy</span> 253/819
@@ -99,7 +99,7 @@ Keywords
   - `malloc` ([spec](http://csapp.cs.cmu.edu/3e/malloclab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/malloc.html)) implements `malloc()` and `free()` via system calls, which manage the **virtual memory**.
   - `proxy` ([spec](http://csapp.cs.cmu.edu/3e/proxylab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html)) implements a tiny proxy server, which supports caching **HTTP responses** and **multi-thread concurrency**.
 
-### Parallel Programming
+### <i class="fa-solid fa-server"></i> Parallel Programming
 
 - Build a CPU cluster based on [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) and NFS.
 - [miniCFD](https://github.com/pvc1989/miniCFD/) partitions unstructured grids by [METIS](https://github.com/pvc1989/METIS) and overlaps computation with communication via [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)'s non-blocking communications.

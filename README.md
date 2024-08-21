@@ -1,18 +1,9 @@
-# 个人主页
+---
+layout: home
+title: 首页
+---
 
-<!-- slide vertical=true -->
-## [miniWiki](https://pvc1989.github.io/miniWiki)
-### [数学](https://pvc1989.github.io/miniWiki/mathematics)
-### [物理](https://pvc1989.github.io/miniWiki/physics)
-### [算法](https://pvc1989.github.io/miniWiki/algorithms)
-### [编程](https://pvc1989.github.io/miniWiki/programming)
-### [文档](https://pvc1989.github.io/miniWiki/documenting)
-
-<!-- slide vertical=true -->
-## [miniCFD](https://pvc1989.github.io/miniCFD)
-
-<!-- slide vertical=true -->
-## [miniSTL](https://pvc1989.github.io/miniSTL)
-
-<!-- slide vertical=true -->
-## [miniTools](https://pvc1989.github.io/miniTools)
+## [<i class="fa-solid fa-address-card"></i> 简历](./resume/chinese.md)
+## [<i class="fa-solid fa-address-card"></i> Resume](./resume/english.md)
+## [<i class="fa-brands fa-github"></i> miniCFD](https://github.com/pvc1989/miniCFD)
+## [<i class="fa-brands fa-github"></i> miniWiki](https://pvc1989.github.io/miniWiki)

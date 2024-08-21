@@ -9,7 +9,7 @@ title: 简历
 
 > <i class="fa-solid fa-envelope"></i> <weicheng.pei@icloud.com>\
 > <i class="fas fa-mobile-alt"></i> +86-188-1143-5549\
-> <i class="fa-brands fa-github"></i> [https://github.com/pvc1989](https://github.com/pvc1989)
+> <i class="fa-brands fa-github"></i> [https://pvc1989.github.io](https://pvc1989.github.io)
 
 ----
 
@@ -35,7 +35,7 @@ title: 简历
 
 ## 发表论文
 
-### 博士学位论文
+### <i class="fa-solid fa-graduation-cap"></i> 博士学位论文
 
 标题
 :   舰载直升机气动干扰计算方法研究
@@ -70,7 +70,7 @@ title: 简历
 [miniWiki](https://github.com/pvc1989/miniWiki)
 : 维护关于数学、物理、算法（[数据结构](https://pvc1989.github.io/miniWiki/algorithms/data_structures/)）、编程（[C++](https://pvc1989.github.io/miniWiki/programming/languages/cpp.html), [Python](https://pvc1989.github.io/miniWiki/programming/languages/python.html), [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)）等主题的笔记、教程及速查表。
 
-### 数据结构及算法
+### <i class="fa-solid fa-arrow-up-a-z"></i> 数据结构及算法
 
 - [LeetCode](https://leetcode.com/u/pvc1989/) 997/3261 已解决（主要用 C++）
   - <span style="color: green">简单</span> 253/819
@@ -99,7 +99,7 @@ title: 简历
   - `malloc` ([spec](http://csapp.cs.cmu.edu/3e/malloclab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/malloc.html)) 基于管理**虚拟存储**的系统调用，实现 `malloc()` 及 `free()`。
   - `proxy` ([spec](http://csapp.cs.cmu.edu/3e/proxylab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html)) 实现简易代理服务器，支持缓存 **HTTP 响应**及**多线程并发**。
 
-### 并行程序开发
+### <i class="fa-solid fa-server"></i> 并行程序开发
 
 - 基于 [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) 及 NFS 搭建 CPU 机群。
 - 在 [miniCFD](https://github.com/pvc1989/miniCFD/) 中，用 [METIS](https://github.com/pvc1989/METIS) 对非结构网格分区，基于 [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html) 非阻塞通信将计算与通信重叠。
