@@ -42,7 +42,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 用js引入fontawesome图标样式，功能更丰富
               <script
                 async="async"
-                src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/js/all.min.js"
+                src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/js/all.min.js"
               ></script>
             - | # 网页标题使用加粗字号
               <style>
@@ -87,16 +87,14 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
                 href: /
-              - title: '<i class="fas fa-tags fa-fw"></i> 数学'
-                href: /miniWiki/mathematics/
-              - title: '<i class="fas fa-tags fa-fw"></i> 物理'
-                href: /miniWiki/physics/
-              - title: '<i class="fas fa-tags fa-fw"></i> 算法'
-                href: /miniWiki/algorithms/
-              - title: '<i class="fas fa-tags fa-fw"></i> 编程'
-                href: /miniWiki/programming/
-              - title: '<i class="fas fa-tags fa-fw"></i> 文档'
-                href: /miniWiki/documenting/
+              - title: '<i class="fas fa-tags fa-fw"></i> 简历'
+                href: /resume/chinese/
+              - title: '<i class="fas fa-tags fa-fw"></i> Resume'
+                href: /resume/english/
+              - title: '<i class="fa-brands fa-github fa-fw"></i> miniCFD'
+                href: https://github.com/pvc1989/miniCFD
+              - title: '<i class="fa-brands fa-github fa-fw"></i> miniWiki'
+                href: https://github.com/pvc1989/miniWiki
             jekyll-toc: # 侧边栏的目录插件，https://github.com/allejo/jekyll-toc
               enable: true
               prepend: | # 目录过长时自动折叠
@@ -114,6 +112,17 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   }
                   .sidebar-toggle {
                     position: fixed;
+                  }
+                  .sidebar {
+                    left: -24rem;
+                    width: 24rem;
+                  }
+                  #sidebar-checkbox:checked ~ .sidebar,
+                  #sidebar-checkbox:checked ~ .wrap,
+                  #sidebar-checkbox:checked ~ .sidebar-toggle {
+                    -webkit-transform: translateX(24rem);
+                        -ms-transform: translateX(24rem);
+                            transform: translateX(24rem);
                   }
                 </style>
               - | # 侧边栏头像效果
@@ -147,28 +156,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     transform: rotate3d(0, 1, 0, -180deg);
                   }
                 </style>
-              - | # 觉得我的主题好用的话，让更多的人知道它吧！
-                <div>
-                  <i class="fas fa-thumbs-up fa-fw"></i>
-                  <a href="https://jekyll-theme-WuK.wu-kan.cn">
-                    jekyll-theme-WuK
-                  </a>
-                </div>
         page:
           masthead: # 显示顶栏
             enable: true
-          katex: # katex 数学公式插件
-            enable: false
-            append: |
-              <link
-                rel="stylesheet"
-                href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
-              />
-              <script
-                src="https://cdn.jsdelivr.net/combine/npm/katex@0.11.1/dist/katex.min.js,npm/katex@0.11.1/dist/contrib/mathtex-script-type.min.js,npm/katex@0.11.1/dist/contrib/auto-render.min.js"
-                async="async"
-                onload='renderMathInElement(document.body, { delimiters: [{ left: "$", right: "$", display: false }] })'
-              ></script>
           mathjax: # 数学公式
             enable: true
             append: |
@@ -268,6 +258,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   }
                 }
               </style>
+              <link
+                rel="stylesheet"
+                href="/assets/css/resume.css"
+              />
         home: # 展示页的配置可跳过，详见<https://revealjs.com/>
           append_to_section_tag:
             - key: data-markdown
@@ -288,9 +282,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               }
               .reveal .slides {
                 text-align: left;
-              }
-              .reveal a {
-                color: #268BD2;
               }
             </style>
             <script
