@@ -77,27 +77,27 @@ Keywords
   - <span style="color: orange">Medium</span> 563/1710
   - <span style="color: red">Hard</span> 181/732
 - [Programming assignments](https://github.com/pvc1989/assignments-algorithms-princeton) in Princeton's [*Algorithms*, Part 1](https://www.coursera.org/learn/algorithms-part1) and [Part 2](https://www.coursera.org/learn/algorithms-part2) (mainly in Java)
-  - [`percolation`](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php) finds the value of the **percolation threshold** via **Monte Carlo simulation** based on the **union-find** data structure.
-  - [`queues`](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php) implements the **double-ended queue** and **randomized queue** data structures.
-  - [`collinear`](https://coursera.cs.princeton.edu/algs4/assignments/collinear/specification.php) finds collinear points in a point set using **comparison-based sorting** algorithms.
-  - [`8puzzle`](https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php) solves the generalized 8-puzzle problem using the **A* search** algorithm based on the **priority queue** data structure.
-  - [`kdtree`](https://coursera.cs.princeton.edu/algs4/assignments/kdtree/specification.php) implements the **2d tree** data structure to support efficient **range search** and **nearest-neighbor search**.
-  - [`wordnet`](https://coursera.cs.princeton.edu/algs4/assignments/wordnet/specification.php) builds a rooted **directed acyclic graph (DAG)** data structure and looks for the **shortest common ancestor** of any two vertices.
-  - [`seam`](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php) implements content-aware image resizing algorithm based on algothms for finding the **single-source shortest path** in a **sparse graph**.
-  - [`baseball`](https://coursera.cs.princeton.edu/algs4/assignments/baseball/specification.php) solves the baseball elimination problem using the **Ford--Fulkerson** algorithm for the **maxflow** problem.
-  - [`boggle`](https://coursera.cs.princeton.edu/algs4/assignments/boggle/specification.php) plays the word game Boggle using the **R-way trie** data structure.
-  - [`burrows`](https://coursera.cs.princeton.edu/algs4/assignments/baseball/specification.php) implement a **data compression** algorithm based on the **Burrows--Wheeler transform** and the **Huffman compression** algorithm.
+  - `percolation` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_b0ea575d0c5b8bf763650c6747a7cdc4.html)) finds the value of the **percolation threshold** via **Monte Carlo simulation** based on the **union-find** data structure.
+  - `queues` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_1216876c582b2d8bc8af271d600ae31a.html)) implements the **double-ended queue** and **randomized queue** data structures.
+  - `collinear` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/collinear/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_027a30c366c586e6898ee55071a8fb6e.html)) finds collinear points in a point set using **comparison-based sorting** algorithms.
+  - `8puzzle` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_ef6e82a25a617010ce5f079a2b75227b.html)) solves the generalized 8-puzzle problem using the **A* search** algorithm based on the **priority queue** data structure.
+  - `kdtree` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/kdtree/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_a52ca6093bf653b3f327f6154fdf935b.html)) implements the **2d tree** data structure to support efficient **range search** and **nearest-neighbor search**.
+  - `wordnet` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/wordnet/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_3f71ad797cfe718c22ccdb1b06ec9938.html)) builds a rooted **directed acyclic graph (DAG)** data structure and looks for the **shortest common ancestor** of any two vertices.
+  - `seam` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/seam/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_89346fbae99106396c15a3f1abf88bd2.html)) implements content-aware image resizing algorithm based on algothms for finding the **single-source shortest path** in a **sparse graph**.
+  - `baseball` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/baseball/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_7ae337e67fc61319ed2ae7abe6dec3ea.html)) solves the baseball elimination problem using the **Ford--Fulkerson** algorithm for the **maxflow** problem.
+  - `boggle` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/boggle/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_2f5a60232d789ad5a886f7da2c383c9f.html)) plays the word game Boggle using the **R-way trie** data structure.
+  - `burrows` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/burrows/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_4c05c4b10993e593b29578503fdeb137.html)) implement a **data compression** algorithm based on the **Burrows--Wheeler transform** and the **Huffman compression** algorithm.
 
 ### <i class="fa-brands fa-linux"></i> Linux System Programming
 
 - [Lab assignments](https://csapp.cs.cmu.edu/3e/labs.html) in CMU's [15-213/18-213: *Introduction to Computer Systems*](https://www.cs.cmu.edu/~213/) (mainly in C and x86-64 assembly)
-  - [`data`](https://pvc1989.github.io/miniWiki/programming/csapp/labs/data.html) implements logical, integral and floating-point operations using **bit manipulations** only.
-  - [`bomb`](https://pvc1989.github.io/miniWiki/programming/csapp/labs/bomb.html) deciphers passwords hidden in an **x86-64** executable file via `gdb`/`lldb` and `objdump`.
-  - [`attack`](https://pvc1989.github.io/miniWiki/programming/csapp/labs/attack.html) alters the behaviors of two **x86-64** executable files by **code injection** and **return-oriented programming**.
-  - [`cache`](https://pvc1989.github.io/miniWiki/programming/csapp/labs/cache.html) implements a simulator of CPU cache, which takes the statistics of **cache-hit** and **cache-miss**.
-  - [`shell`](https://pvc1989.github.io/miniWiki/programming/csapp/labs/shell.html) implements a tiny Unix shell, which supports **job management** and **signal handling**.
-  - [`malloc`](https://pvc1989.github.io/miniWiki/programming/csapp/labs/malloc.html) implements `malloc()` and `free()` via system calls, which manage the **virtual memory**.
-  - [`proxy`](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html) implements a tiny proxy server, which supports caching **HTTP responses** and **multi-thread concurrency**.
+  - `data` ([spec](http://csapp.cs.cmu.edu/3e/datalab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/data.html)) implements logical, integral and floating-point operations using **bit manipulations** only.
+  - `bomb` ([spec](http://csapp.cs.cmu.edu/3e/bomblab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/bomb.html)) deciphers passwords hidden in an **x86-64** executable file via `gdb`/`lldb` and `objdump`.
+  - `attack` ([spec](http://csapp.cs.cmu.edu/3e/attacklab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/attack.html)) alters the behaviors of two **x86-64** executable files by **code injection** and **return-oriented programming**.
+  - `cache` ([spec](http://csapp.cs.cmu.edu/3e/cachelab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/cache.html)) implements a simulator of CPU cache, which takes the statistics of **cache-hit** and **cache-miss**.
+  - `shell` ([spec](http://csapp.cs.cmu.edu/3e/shlab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/shell.html)) implements a tiny Unix shell, which supports **job management** (`fg`/`bg`, `jobs`) and **signal handling** (`ctrl-c`, `ctrl-z`).
+  - `malloc` ([spec](http://csapp.cs.cmu.edu/3e/malloclab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/malloc.html)) implements `malloc()` and `free()` via system calls, which manage the **virtual memory**.
+  - `proxy` ([spec](http://csapp.cs.cmu.edu/3e/proxylab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html)) implements a tiny proxy server, which supports caching **HTTP responses** and **multi-thread concurrency**.
 
 ### Parallel Programming
 
