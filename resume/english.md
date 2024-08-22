@@ -55,7 +55,7 @@ Keywords
 
 ### Conference Presentations
 
-- **Pei W** and Ren Y. [A Novel Energy-based Artificial Viscosity for Suppressing Numerical Oscillations in Discontinuous Galerkin and Flux Reconstruction Schemes](https://pvc1989.github.io/ICCFD12/presentation). [*12th International Conference on Computational Fluid Dynamics (ICCFD12)*](https://confit.atlas.jp/guide/event/iccfd12/subject/5-C-01/), July 15-19, Kobe, Japan.
+- **Pei W** and Ren Y. [A Novel Energy-based Artificial Viscosity for Suppressing Numerical Oscillations in Discontinuous Galerkin and Flux Reconstruction Schemes](https://pvc1989.github.io/ICCFD12/presentation). [*12th International Conference on Computational Fluid Dynamics (ICCFD12)*](https://confit.atlas.jp/guide/event/iccfd12/subject/5-C-01/), July 15-19, 2024, Kobe, Japan.
 
 - **Pei W** and Li S. Computational Method for the Aeromechanical Behaviors of a Rotorcraft in Vortex Ring State. [*International Conference on Computational & Experimental Engineering and Sciences 2015 (ICCES2015)*](https://www.iccesconf.org/), July 20-24, 2015, Reno, USA.
 
@@ -72,8 +72,8 @@ Keywords
 
 ### <i class="fa-solid fa-arrow-up-a-z"></i> Data Structure and Algorithms
 
-- [LeetCode](https://leetcode.com/u/pvc1989/) (mainly in C++)
-  - ![LeetCode Stats](https://leetcard.jacoblin.cool/pvc1989?theme=light&ext=heatmap)
+- [LeetCode](https://leetcode.com/u/pvc1989/) daily challenges (mainly in C++)
+  ![LeetCode Stats](https://leetcard.jacoblin.cool/pvc1989?theme=light&ext=heatmap)
 - [Programming assignments](https://github.com/pvc1989/assignments-algorithms-princeton) in Princeton's [*Algorithms*, Part 1](https://www.coursera.org/learn/algorithms-part1) and [Part 2](https://www.coursera.org/learn/algorithms-part2) (mainly in Java)
   - `percolation` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_b0ea575d0c5b8bf763650c6747a7cdc4.html)) finds the value of the **percolation threshold** via **Monte Carlo simulation** based on the **union-find** data structure.
   - `queues` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_1216876c582b2d8bc8af271d600ae31a.html)) implements the **double-ended queue** and **randomized queue** data structures.
@@ -99,7 +99,7 @@ Keywords
 
 ### <i class="fa-solid fa-server"></i> Parallel Programming
 
-- Build a CPU cluster based on [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) and NFS.
-- [miniCFD](https://github.com/pvc1989/miniCFD/) partitions unstructured grids by [METIS](https://github.com/pvc1989/METIS) and overlaps computation with communication via [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)'s non-blocking communications.
+- [Build a LAN and a CPU cluster](https://pvc1989.github.io/miniWiki/programming/mpi.html#平台搭建) based on [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) and **network file system (NFS)**.
+- [miniCFD](https://github.com/pvc1989/miniCFD/) partitions unstructured grids by [METIS](https://github.com/pvc1989/METIS) and overlaps computation with communication via [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)'s **non-blocking communications**.
 
 ----

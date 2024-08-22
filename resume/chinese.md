@@ -55,7 +55,7 @@ title: 简历
 
 ### 会议报告
 
-- **Pei W** and Ren Y. [A Novel Energy-based Artificial Viscosity for Suppressing Numerical Oscillations in Discontinuous Galerkin and Flux Reconstruction Schemes](https://pvc1989.github.io/ICCFD12/presentation). [*12th International Conference on Computational Fluid Dynamics (ICCFD12)*](https://confit.atlas.jp/guide/event/iccfd12/subject/5-C-01/), July 15-19, Kobe, Japan.
+- **Pei W** and Ren Y. [A Novel Energy-based Artificial Viscosity for Suppressing Numerical Oscillations in Discontinuous Galerkin and Flux Reconstruction Schemes](https://pvc1989.github.io/ICCFD12/presentation). [*12th International Conference on Computational Fluid Dynamics (ICCFD12)*](https://confit.atlas.jp/guide/event/iccfd12/subject/5-C-01/), July 15-19, 2024, Kobe, Japan.
 
 - **Pei W** and Li S. Computational Method for the Aeromechanical Behaviors of a Rotorcraft in Vortex Ring State. [*International Conference on Computational & Experimental Engineering and Sciences 2015 (ICCES2015)*](https://www.iccesconf.org/), July 20-24, 2015, Reno, USA.
 
@@ -72,8 +72,8 @@ title: 简历
 
 ### <i class="fa-solid fa-arrow-up-a-z"></i> 数据结构及算法
 
-- [LeetCode](https://leetcode.com/u/pvc1989/)（主要用 C++）
-  - ![LeetCode Stats](https://leetcard.jacoblin.cool/pvc1989?theme=light&ext=heatmap)
+- [LeetCode](https://leetcode.com/u/pvc1989/) 每日一题（主要用 C++）
+  ![LeetCode Stats](https://leetcard.jacoblin.cool/pvc1989?theme=light&ext=heatmap)
 - 普林斯顿大学课程[《算法》第一部分](https://www.coursera.org/learn/algorithms-part1)及[第二部分](https://www.coursera.org/learn/algorithms-part2)的[编程作业](https://github.com/pvc1989/assignments-algorithms-princeton)（主要用 Java）
   - `percolation` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_b0ea575d0c5b8bf763650c6747a7cdc4.html)) 基于**并查集**数据结构，通过**蒙特卡洛模拟**，寻找**渗透阈值**。
   - `queues` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_1216876c582b2d8bc8af271d600ae31a.html)) 实现**两端队列**及**随机队列**数据结构。
@@ -99,7 +99,7 @@ title: 简历
 
 ### <i class="fa-solid fa-server"></i> 并行程序开发
 
-- 基于 [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) 及 NFS 搭建 CPU 机群。
-- 在 [miniCFD](https://github.com/pvc1989/miniCFD/) 中，用 [METIS](https://github.com/pvc1989/METIS) 对非结构网格分区，基于 [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html) 非阻塞通信将计算与通信重叠。
+- 基于 [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) 及**网络文件系统**，[搭建局域网及 CPU 机群](https://pvc1989.github.io/miniWiki/programming/mpi.html#平台搭建)。
+- 在 [miniCFD](https://github.com/pvc1989/miniCFD/) 中，用 [METIS](https://github.com/pvc1989/METIS) 对非结构网格分区，基于 [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html) 的**非阻塞通信**将计算与通信重叠。
 
 ----
