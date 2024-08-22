@@ -72,10 +72,8 @@ title: 简历
 
 ### <i class="fa-solid fa-arrow-up-a-z"></i> 数据结构及算法
 
-- [LeetCode](https://leetcode.com/u/pvc1989/) 997/3261 已解决（主要用 C++）
-  - <span style="color: green">简单</span> 253/819
-  - <span style="color: orange">中等</span> 563/1710
-  - <span style="color: red">困难</span> 181/732
+- [LeetCode](https://leetcode.com/u/pvc1989/)（主要用 C++）
+  - ![LeetCode Stats](https://leetcard.jacoblin.cool/pvc1989?theme=light&ext=heatmap)
 - 普林斯顿大学课程[《算法》第一部分](https://www.coursera.org/learn/algorithms-part1)及[第二部分](https://www.coursera.org/learn/algorithms-part2)的[编程作业](https://github.com/pvc1989/assignments-algorithms-princeton)（主要用 Java）
   - `percolation` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_b0ea575d0c5b8bf763650c6747a7cdc4.html)) 基于**并查集**数据结构，通过**蒙特卡洛模拟**，寻找**渗透阈值**。
   - `queues` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_1216876c582b2d8bc8af271d600ae31a.html)) 实现**两端队列**及**随机队列**数据结构。
