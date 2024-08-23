@@ -38,7 +38,7 @@ title: Resume
 ### <i class="fa-solid fa-graduation-cap"></i> PhD Thesis
 
 Title
-:   Study on Computational Method for Aerodynamic Interference of Shipborne Helicopters
+:   [Study on Computational Method for Aerodynamic Interference of Shipborne Helicopters](https://pvc1989.github.io/phdthesis/presentation)
 
 Keywords
 :   shipborne helicopter, aerodynamic interference, rotor aerodynamics, discontinuous Galerkin (DG) finite element method, weighted essentially non-oscillatory (WENO) reconstruction, unsteady momentum source (UMS) model

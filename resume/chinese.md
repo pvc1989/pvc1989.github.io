@@ -38,7 +38,7 @@ title: 简历
 ### <i class="fa-solid fa-graduation-cap"></i> 博士学位论文
 
 标题
-:   舰载直升机气动干扰计算方法研究
+:   [舰载直升机气动干扰计算方法研究](https://pvc1989.github.io/phdthesis/presentation)
 
 关键词
 :   舰载直升机，气动干扰，旋翼空气动力学，间断伽辽金有限元法，加权基本无振荡重构，非定常动量源模型
