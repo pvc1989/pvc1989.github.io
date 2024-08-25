@@ -66,6 +66,15 @@ title: 简历
 [miniCFD](https://github.com/pvc1989/miniCFD)
 : 实现博士、博士后阶段研究的计算流体力学算法。
 : 一维版本用 Python3 实现，三维、并行版本用 C++20 实现。
+: 主要特性：
+  - 空间离散：[间断伽辽金 (DG)](https://pvc1989.github.io/phdthesis/presentation)、[通量重构 (FR)](https://pvc1989.github.io/ICCFD12/presentation)
+  - 激波捕捉：[限制器](https://pvc1989.github.io/phdthesis/presentation)、[人工黏性](https://pvc1989.github.io/ICCFD12/presentation)
+  - 多态：[虚函数](https://pvc1989.github.io/miniWiki/programming/languages/cpp/class/inheritance.html)、[模板](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/generic.html)
+  - 并行：[METIS](https://github.com/pvc1989/METIS)、[MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)
+  - 构建：[CMake](https://pvc1989.github.io/miniWiki/programming/languages/cpp/make.html#cmake)
+  - 测试：[Google Test](https://pvc1989.github.io/miniWiki/programming/languages/cpp/unittest.html#google-test)、[CTest](https://pvc1989.github.io/miniWiki/programming/languages/cpp/unittest.html#ctest)
+  - CI/CD：[Github Actions](https://github.com/pvc1989/miniCFD/actions)
+  - C++20：[`concept`/`requires`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#类型限制)、[`<concepts>`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#concepts)、[`<ranges>`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#ranges)
 
 [miniWiki](https://github.com/pvc1989/miniWiki)
 : 维护关于数学、物理、算法（[数据结构](https://pvc1989.github.io/miniWiki/algorithms/data_structures/)）、编程（[C++](https://pvc1989.github.io/miniWiki/programming/languages/cpp.html), [Python](https://pvc1989.github.io/miniWiki/programming/languages/python.html), [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)）等主题的笔记、教程及速查表。
