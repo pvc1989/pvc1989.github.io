@@ -68,20 +68,26 @@ Keywords
 ### <i class="fa-brands fa-github"></i> Personal Code Repositories
 
 [miniCFD](https://github.com/pvc1989/miniCFD)
-: implements CFD algorithms developed in my PhD and postdoc studies.
-: 1D in Python3 and 3D parallel in C++20.
+: This repo maintains [Python3 prototypes](https://github.com/pvc1989/miniCFD/tree/develop/python) and [C++20 implementations](https://github.com/pvc1989/miniCFD/tree/develop/include) of the CFD algorithms studied in my PhD and postdoc period.
 : Main features:
   - Spatial discretization: [DG](https://pvc1989.github.io/phdthesis/presentation), [FR](https://pvc1989.github.io/ICCFD12/presentation)
   - Shock capturing: [limiter](https://pvc1989.github.io/phdthesis/presentation), [artificial viscosity](https://pvc1989.github.io/ICCFD12/presentation)
   - Polymorphism: [`virtual`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/class/inheritance.html), [`template`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/generic.html)
-  - Parallel: [METIS](https://github.com/pvc1989/METIS), [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)
+  - Parallelism: [METIS](https://github.com/pvc1989/METIS), [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)
+  - I/O: [CGNS](https://pvc1989.github.io/miniWiki/programming/mesh/cgns.html), [VTK](https://pvc1989.github.io/miniWiki/programming/mesh/vtk.html)
   - Build: [CMake](https://pvc1989.github.io/miniWiki/programming/languages/cpp/make.html#cmake)
   - Test: [Google Test](https://pvc1989.github.io/miniWiki/programming/languages/cpp/unittest.html#google-test), [CTest](https://pvc1989.github.io/miniWiki/programming/languages/cpp/unittest.html#ctest)
   - CI/CD: [Github Actions](https://github.com/pvc1989/miniCFD/actions)
   - C++20: [`concept`/`requires`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#类型限制), [`<concepts>`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#concepts), [`<ranges>`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#ranges)
 
 [miniWiki](https://github.com/pvc1989/miniWiki)
-: maintains notes, tutorials and cheatsheets on mathematics, physics, algorithms ([data structures](https://pvc1989.github.io/miniWiki/algorithms/data_structures/)), programming([C++](https://pvc1989.github.io/miniWiki/programming/languages/cpp.html), [Python](https://pvc1989.github.io/miniWiki/programming/languages/python.html), [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)), etc.
+: This repo maintains tutorials for self-study and cheatsheets for daily work.
+: Main topics:
+  - Mathematics
+  - Physics ([analytical mechanics](https://pvc1989.github.io/miniWiki/physics/analytical_mechanics.html), [quantum mechanics](https://pvc1989.github.io/miniWiki/physics/quantum_mechanics.html), [fluid mechanics](https://pvc1989.github.io/miniWiki/physics/continuum/))
+  - Algorithms ([data structures](https://pvc1989.github.io/miniWiki/algorithms/data_structures/))
+  - Programming ([CSAPP](https://pvc1989.github.io/miniWiki/programming/csapp.html), [Linux](https://pvc1989.github.io/miniWiki/programming/linux.html), [C++](https://pvc1989.github.io/miniWiki/programming/languages/cpp.html), [Python](https://pvc1989.github.io/miniWiki/programming/languages/python.html), [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html), [UML](https://pvc1989.github.io/miniWiki/programming/design/uml.html), [design patterns](https://pvc1989.github.io/miniWiki/programming/design/patterns.html))
+  - Documenting ([LaTeX](https://pvc1989.github.io/miniWiki/documenting/latex/), [Markdown](https://pvc1989.github.io/miniWiki/documenting/markdown.html), [HTML/CSS/JS](https://pvc1989.github.io/miniWiki/documenting/web/))
 
 ### <i class="fa-solid fa-arrow-up-a-z"></i> Data Structure and Algorithms
 
@@ -110,7 +116,8 @@ Keywords
   - `malloc` ([spec](http://csapp.cs.cmu.edu/3e/malloclab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/malloc.html)) implements `malloc()` and `free()` via system calls, which manage the **virtual memory**.
   - `proxy` ([spec](http://csapp.cs.cmu.edu/3e/proxylab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html)) implements a tiny proxy server, which supports caching **HTTP responses** and **multi-thread concurrency**.
 
-### <i class="fa-solid fa-server"></i> Parallel Programming
+### <i class="fa-solid fa-server"></i> Concurrent and Parallel Programming
 
 - [Build a LAN and a CPU cluster](https://pvc1989.github.io/miniWiki/programming/mpi.html#平台搭建) based on [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) and **network file system (NFS)**.
 - [miniCFD](https://github.com/pvc1989/miniCFD/) partitions unstructured grids by [METIS](https://github.com/pvc1989/METIS) and overlaps computation with communication via [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)'s **non-blocking communications**.
+- The [`proxy` lab](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html) supports **multi-thread concurrency** by using [POSIX threads](http://pvc1989.github.io/miniWiki/programming/csapp/12_concurrent_programming.html#32-pthread).

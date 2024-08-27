@@ -70,20 +70,26 @@ title: 简历
 ### <i class="fa-brands fa-github"></i> 个人代码仓库
 
 [miniCFD](https://github.com/pvc1989/miniCFD)
-: 实现博士、博士后阶段研究的计算流体力学算法。
-: 一维版本用 Python3 实现，三维、并行版本用 C++20 实现。
+: 该仓库维护本人博士、博士后阶段研究的计算流体力学算法的 [Python3 原型](https://github.com/pvc1989/miniCFD/tree/develop/python)及 [C++20 实现](https://github.com/pvc1989/miniCFD/tree/develop/include)。
 : 主要特性：
   - 空间离散：[间断伽辽金 (DG)](https://pvc1989.github.io/phdthesis/presentation)、[通量重构 (FR)](https://pvc1989.github.io/ICCFD12/presentation)
   - 激波捕捉：[限制器](https://pvc1989.github.io/phdthesis/presentation)、[人工黏性](https://pvc1989.github.io/ICCFD12/presentation)
   - 多态：[虚函数](https://pvc1989.github.io/miniWiki/programming/languages/cpp/class/inheritance.html)、[模板](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/generic.html)
   - 并行：[METIS](https://github.com/pvc1989/METIS)、[MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)
+  - 读写: [CGNS](https://pvc1989.github.io/miniWiki/programming/mesh/cgns.html), [VTK](https://pvc1989.github.io/miniWiki/programming/mesh/vtk.html)
   - 构建：[CMake](https://pvc1989.github.io/miniWiki/programming/languages/cpp/make.html#cmake)
   - 测试：[Google Test](https://pvc1989.github.io/miniWiki/programming/languages/cpp/unittest.html#google-test)、[CTest](https://pvc1989.github.io/miniWiki/programming/languages/cpp/unittest.html#ctest)
   - CI/CD：[Github Actions](https://github.com/pvc1989/miniCFD/actions)
   - C++20：[`concept`/`requires`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#类型限制)、[`<concepts>`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#concepts)、[`<ranges>`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#ranges)
 
 [miniWiki](https://github.com/pvc1989/miniWiki)
-: 维护关于数学、物理、算法（[数据结构](https://pvc1989.github.io/miniWiki/algorithms/data_structures/)）、编程（[C++](https://pvc1989.github.io/miniWiki/programming/languages/cpp.html), [Python](https://pvc1989.github.io/miniWiki/programming/languages/python.html), [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)）等主题的笔记、教程及速查表。
+: 该仓库维护自学教程及日常工作用到的速查表。
+: 主要内容：
+  - 数学
+  - 物理（[分析力学](https://pvc1989.github.io/miniWiki/physics/analytical_mechanics.html)、[量子力学](https://pvc1989.github.io/miniWiki/physics/quantum_mechanics.html)、[流体力学](https://pvc1989.github.io/miniWiki/physics/continuum/)）
+  - 算法（[数据结构](https://pvc1989.github.io/miniWiki/algorithms/data_structures/)）
+  - 编程（[CSAPP](https://pvc1989.github.io/miniWiki/programming/csapp.html)、[Linux](https://pvc1989.github.io/miniWiki/programming/linux.html)、[C++](https://pvc1989.github.io/miniWiki/programming/languages/cpp.html)、[Python](https://pvc1989.github.io/miniWiki/programming/languages/python.html)、[MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)、[UML](https://pvc1989.github.io/miniWiki/programming/design/uml.html)、[设计模式](https://pvc1989.github.io/miniWiki/programming/design/patterns.html)）
+  - 文档（[LaTeX](https://pvc1989.github.io/miniWiki/documenting/latex/)、[Markdown](https://pvc1989.github.io/miniWiki/documenting/markdown.html)、[HTML/CSS/JS](https://pvc1989.github.io/miniWiki/documenting/web/)）
 
 ### <i class="fa-solid fa-arrow-up-a-z"></i> 数据结构及算法
 
@@ -112,7 +118,8 @@ title: 简历
   - `malloc` ([spec](http://csapp.cs.cmu.edu/3e/malloclab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/malloc.html)) 基于管理**虚拟存储**的系统调用，实现 `malloc()` 及 `free()`。
   - `proxy` ([spec](http://csapp.cs.cmu.edu/3e/proxylab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html)) 实现简易代理服务器，支持缓存 **HTTP 响应**及**多线程并发**。
 
-### <i class="fa-solid fa-server"></i> 并行程序开发
+### <i class="fa-solid fa-server"></i> 并发与并行编程
 
 - 基于 [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) 及**网络文件系统**，[搭建局域网及 CPU 机群](https://pvc1989.github.io/miniWiki/programming/mpi.html#平台搭建)。
 - 在 [miniCFD](https://github.com/pvc1989/miniCFD/) 中，用 [METIS](https://github.com/pvc1989/METIS) 对非结构网格分区，基于 [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html) 的**非阻塞通信**将计算与通信重叠。
+- 在 [`proxy` 实验](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html) 中，利用 [POSIX threads](http://pvc1989.github.io/miniWiki/programming/csapp/12_concurrent_programming.html#32-pthread) 支持**多线程并发**。
