@@ -27,6 +27,8 @@ title: Resume
 :   [Zhejiang University](https://www.zju.edu.cn) (Hangzhou, China)
 :   **BSc, Engineering Mechanics**
 
+----
+
 ## Work Experience
 
 2022---2024
@@ -58,6 +60,8 @@ Keywords
 - **Pei W** and Ren Y. [A Novel Energy-based Artificial Viscosity for Suppressing Numerical Oscillations in Discontinuous Galerkin and Flux Reconstruction Schemes](https://pvc1989.github.io/ICCFD12/presentation). [*12th International Conference on Computational Fluid Dynamics (ICCFD12)*](https://confit.atlas.jp/guide/event/iccfd12/subject/5-C-01/), July 15-19, 2024, Kobe, Japan.
 
 - **Pei W** and Li S. Computational Method for the Aeromechanical Behaviors of a Rotorcraft in Vortex Ring State. [*International Conference on Computational & Experimental Engineering and Sciences 2015 (ICCES2015)*](https://www.iccesconf.org/), July 20-24, 2015, Reno, USA.
+
+----
 
 ## Programming Experience
 
@@ -110,5 +114,3 @@ Keywords
 
 - [Build a LAN and a CPU cluster](https://pvc1989.github.io/miniWiki/programming/mpi.html#平台搭建) based on [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) and **network file system (NFS)**.
 - [miniCFD](https://github.com/pvc1989/miniCFD/) partitions unstructured grids by [METIS](https://github.com/pvc1989/METIS) and overlaps computation with communication via [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)'s **non-blocking communications**.
-
-----

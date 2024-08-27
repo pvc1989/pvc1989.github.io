@@ -158,7 +158,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
         page:
           masthead: # 显示顶栏
-            enable: true
+            enable: false
           mathjax: # 数学公式
             enable: true
             append: |
