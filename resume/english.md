@@ -3,7 +3,7 @@ layout: page
 title: Resume
 ---
 
-# PEI Weicheng [裴为诚](./chinese.md)
+# PEI Weicheng [裴为诚](https://pvc1989.github.io/resume/chinese)
 
 ----
 
@@ -34,6 +34,8 @@ title: Resume
 2022---2024
 :   [Tsinghua University](https://www.tsinghua.edu.cn) (Beijing, China)
 :   **Postdoctoral Researcher, Fluid Mechanics**, responsible for developing high-order CFD solvers.
+
+----
 
 ## Publications
 
@@ -92,7 +94,7 @@ Keywords
 ### <i class="fa-solid fa-arrow-up-a-z"></i> Data Structure and Algorithms
 
 - [LeetCode](https://leetcode.com/u/pvc1989/) daily challenges (mainly in C++)
-  ![LeetCode Stats](https://leetcard.jacoblin.cool/pvc1989?theme=light&ext=heatmap)
+  - ![LeetCode Stats](https://leetcard.jacoblin.cool/pvc1989?theme=light&ext=heatmap)
 - [Programming assignments](https://github.com/pvc1989/assignments-algorithms-princeton) in Princeton's [*Algorithms*, Part 1](https://www.coursera.org/learn/algorithms-part1) and [Part 2](https://www.coursera.org/learn/algorithms-part2) (mainly in Java)
   - `percolation` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_b0ea575d0c5b8bf763650c6747a7cdc4.html)) finds the value of the **percolation threshold** via **Monte Carlo simulation** based on the **union-find** data structure.
   - `queues` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_1216876c582b2d8bc8af271d600ae31a.html)) implements the **double-ended queue** and **randomized queue** data structures.

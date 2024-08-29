@@ -94,8 +94,8 @@ title: 简历
 ### <i class="fa-solid fa-arrow-up-a-z"></i> 数据结构及算法
 
 - [LeetCode](https://leetcode.com/u/pvc1989/) 每日一题（主要用 C++）
-  ![LeetCode Stats](https://leetcard.jacoblin.cool/pvc1989?theme=light&ext=heatmap)
-- 普林斯顿大学课程[《算法》第一部分](https://www.coursera.org/learn/algorithms-part1)及[第二部分](https://www.coursera.org/learn/algorithms-part2)的[编程作业](https://github.com/pvc1989/assignments-algorithms-princeton)（主要用 Java）
+  - ![LeetCode Stats](https://leetcard.jacoblin.cool/pvc1989?theme=light&ext=heatmap)
+- 普林斯顿大学[《算法》](https://www.coursera.org/learn/algorithms-part1)课程的[编程作业](https://github.com/pvc1989/assignments-algorithms-princeton)（主要用 Java）
   - `percolation` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_b0ea575d0c5b8bf763650c6747a7cdc4.html)) 基于**并查集**数据结构，通过**蒙特卡洛模拟**，寻找**渗透阈值**。
   - `queues` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_1216876c582b2d8bc8af271d600ae31a.html)) 实现**两端队列**及**随机队列**数据结构。
   - `collinear` ([spec](https://coursera.cs.princeton.edu/algs4/assignments/collinear/specification.php), [ans](https://pvc1989.github.io/assignments-algorithms-princeton/dir_027a30c366c586e6898ee55071a8fb6e.html)) 用**基于比较的排序**，在给定点集中寻找共线点。
@@ -109,7 +109,7 @@ title: 简历
 
 ### <i class="fa-brands fa-linux"></i> Linux 系统编程
 
-- 卡耐基梅隆大学课程[《计算机系统导论》](https://www.cs.cmu.edu/~213/)的[实验作业](https://csapp.cs.cmu.edu/3e/labs.html)（主要用 C 及 x86-64 汇编）
+- 卡耐基梅隆大学[《计算机系统导论》](https://www.cs.cmu.edu/~213/)课程的[实验作业](https://csapp.cs.cmu.edu/3e/labs.html)（主要用 C 及 x86-64 汇编）
   - `data` ([spec](http://csapp.cs.cmu.edu/3e/datalab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/data.html)) 用**位运算**实现逻辑、整型、浮点型运算。
   - `bomb` ([spec](http://csapp.cs.cmu.edu/3e/bomblab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/bomb.html)) 用 `gdb`/`lldb` 及 `objdump` 破译给定 **x86-64** 可执行文件中的密码。
   - `attack` ([spec](http://csapp.cs.cmu.edu/3e/attacklab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/attack.html)) 用**代码注入**及**面向返回编程**改变给定 **x86-64** 可执行文件的行为。
