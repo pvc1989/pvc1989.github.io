@@ -3,29 +3,29 @@ layout: page
 title: Resume
 ---
 
-# PEI Weicheng [裴为诚](https://pvc1989.github.io/resume/chinese)
+# [PEI Weicheng](https://pvc1989.github.io/resume/english) [裴为诚](https://pvc1989.github.io/resume/chinese)
 
 ----
 
-> <i class="fa-solid fa-envelope"></i> <weicheng.pei@icloud.com>\
-> <i class="fas fa-mobile-alt"></i> +86-188-1143-5549\
-> <i class="fa-brands fa-github"></i> [https://pvc1989.github.io](https://pvc1989.github.io)
+> <i class="fa-solid fa-envelope"></i> <weicheng.pei@icloud.com> •
+> <i class="fas fa-mobile-alt"></i> +86-188-1143-5549 •
+> <i class="fa-brands fa-github"></i> [My Home Page](https://pvc1989.github.io)
 
 ----
 
 ## Education Background
 
+2008---2012
+:   [Zhejiang University](https://www.zju.edu.cn) (Hangzhou, China)
+:   Undergraduate, **BSc**, Engineering Mechanics
+
 2012---2022
 :   [Beihang University](https://www.buaa.edu.cn) (Beijing, China)
-:   **MSc & PhD, Aircraft Design**
+:   Graduate, **MSc & PhD**, Aircraft Design
 
 2016---2017
 :   [Texas Tech University](https://www.ttu.edu) (Lubbock, United States)
-:   **Visiting Scholar**, sponsored by [*China Scholarship Council*](https://www.csc.edu.cn/)
-
-2008---2012
-:   [Zhejiang University](https://www.zju.edu.cn) (Hangzhou, China)
-:   **BSc, Engineering Mechanics**
+:   **Joint PhD Student**, sponsored by [China Scholarship Council](https://www.csc.edu.cn/), supervised by Prof. [Satya N. Atluri](https://en.wikipedia.org/wiki/Satya_N._Atluri) (member of US National Academy of Engineering)
 
 ----
 
@@ -33,7 +33,7 @@ title: Resume
 
 2022---2024
 :   [Tsinghua University](https://www.tsinghua.edu.cn) (Beijing, China)
-:   **Postdoctoral Researcher, Fluid Mechanics**, responsible for developing high-order CFD solvers.
+:   **Postdoctoral Researcher**, Prof. [Yu-Xin Ren](https://scholar.google.com/citations?user=iuhAibwAAAAJ)'s group, responsible for developing high-order CFD solvers.
 
 ----
 

@@ -92,3 +92,7 @@ code {
     font-weight: bold;
     /* font-variant: small-caps; */
 }
+
+blockquote {
+    padding: 0px;
+}

@@ -3,29 +3,29 @@ layout: page
 title: 简历
 ---
 
-# 裴为诚 [PEI Weicheng](https://pvc1989.github.io/resume/english)
+# [裴为诚](https://pvc1989.github.io/resume/chinese) [PEI Weicheng](https://pvc1989.github.io/resume/english)
 
 ----
 
-> <i class="fa-solid fa-envelope"></i> <weicheng.pei@icloud.com>\
-> <i class="fas fa-mobile-alt"></i> +86-188-1143-5549\
-> <i class="fa-brands fa-github"></i> [https://pvc1989.github.io](https://pvc1989.github.io)
+> <i class="fa-solid fa-envelope"></i> <weicheng.pei@icloud.com> •
+> <i class="fas fa-mobile-alt"></i> +86-188-1143-5549 •
+> <i class="fa-brands fa-github"></i> [个人主页](https://pvc1989.github.io)
 
 ----
 
 ## 教育背景
 
+2008---2012
+:   [浙江大学](https://www.zju.edu.cn)
+:   **本科**学历，**工学学士**学位，**工程力学**专业
+
 2012---2022
 :   [北京航空航天大学](https://www.buaa.edu.cn)
-:   **硕士、博士，飞行器设计**
+:   **研究生**学历，**工学博士**学位，**飞行器设计**专业
 
 2016---2017
 :   [得克萨斯理工大学](https://www.ttu.edu) (Lubbock, United States)
-:   **访问学者**，获[国家留学基金委](https://www.csc.edu.cn/)资助
-
-2008---2012
-:   [浙江大学](https://www.zju.edu.cn)
-:   **学士，工程力学**
+:   **联合培养博士生**，[国家留学基金委](https://www.csc.edu.cn/)资助，美国工程院院士 [Satya N. Atluri](https://en.wikipedia.org/wiki/Satya_N._Atluri) 教授指导
 
 ----
 
@@ -33,7 +33,7 @@ title: 简历
 
 2022---2024
 :   [清华大学](https://www.tsinghua.edu.cn)
-:   **博士后，流体力学**，负责开发高阶计算流体力学求解器
+:   **博士后**，[任玉新](https://www.hy.tsinghua.edu.cn/info/1154/1826.htm)教授团队，负责开发高阶计算流体力学求解器
 
 ----
 
