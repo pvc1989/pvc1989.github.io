@@ -74,20 +74,19 @@ title: 简历
 : 主要特性：
   - 空间离散：[间断伽辽金 (DG)](https://pvc1989.github.io/phdthesis/presentation)、[通量重构 (FR)](https://pvc1989.github.io/ICCFD12/presentation)
   - 激波捕捉：[限制器](https://pvc1989.github.io/phdthesis/presentation)、[人工黏性](https://pvc1989.github.io/ICCFD12/presentation)
-  - 多态：[虚函数](https://pvc1989.github.io/miniWiki/programming/languages/cpp/class/inheritance.html)、[模板](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/generic.html)
-  - 并行：[METIS](https://github.com/pvc1989/METIS)、[MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)
+  - 多态：[`virtual`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/class/inheritance.html)、[`template`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/generic.html)、[`concept`/`requires`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#类型限制)
+  - 并行：[pvc1989/METIS](https://github.com/pvc1989/METIS)、[MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)
   - 读写: [CGNS](https://pvc1989.github.io/miniWiki/programming/mesh/cgns.html), [VTK](https://pvc1989.github.io/miniWiki/programming/mesh/vtk.html)
-  - 构建：[CMake](https://pvc1989.github.io/miniWiki/programming/languages/cpp/make.html#cmake)
+  - 构建：[CMake](https://pvc1989.github.io/miniWiki/programming/languages/cpp/make.html#cmake)、[Github Actions](https://github.com/pvc1989/miniCFD/actions)
   - 测试：[Google Test](https://pvc1989.github.io/miniWiki/programming/languages/cpp/unittest.html#google-test)、[CTest](https://pvc1989.github.io/miniWiki/programming/languages/cpp/unittest.html#ctest)
-  - CI/CD：[Github Actions](https://github.com/pvc1989/miniCFD/actions)
   - C++20：[`concept`/`requires`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#类型限制)、[`<concepts>`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#concepts)、[`<ranges>`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#ranges)
 
 [miniWiki](https://github.com/pvc1989/miniWiki)
 : 该仓库维护自学教程及日常工作用到的速查表。
 : 主要内容：
-  - 数学
+  - 数学（实分析、复分析、泛函分析、张量分析、微分方程）
   - 物理（[分析力学](https://pvc1989.github.io/miniWiki/physics/analytical_mechanics.html)、[量子力学](https://pvc1989.github.io/miniWiki/physics/quantum_mechanics.html)、[流体力学](https://pvc1989.github.io/miniWiki/physics/continuum/)）
-  - 算法（[数据结构](https://pvc1989.github.io/miniWiki/algorithms/data_structures/)）
+  - 算法（[数据结构](https://pvc1989.github.io/miniWiki/algorithms/data_structures/)、数值方法、优化方法）
   - 编程（[CSAPP](https://pvc1989.github.io/miniWiki/programming/csapp.html)、[Linux](https://pvc1989.github.io/miniWiki/programming/linux.html)、[C++](https://pvc1989.github.io/miniWiki/programming/languages/cpp.html)、[Python](https://pvc1989.github.io/miniWiki/programming/languages/python.html)、[MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)、[UML](https://pvc1989.github.io/miniWiki/programming/design/uml.html)、[设计模式](https://pvc1989.github.io/miniWiki/programming/design/patterns.html)）
   - 文档（[LaTeX](https://pvc1989.github.io/miniWiki/documenting/latex/)、[Markdown](https://pvc1989.github.io/miniWiki/documenting/markdown.html)、[HTML/CSS/JS](https://pvc1989.github.io/miniWiki/documenting/web/)）
 

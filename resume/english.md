@@ -74,18 +74,17 @@ Keywords
 : Main features:
   - Spatial discretization: [DG](https://pvc1989.github.io/phdthesis/presentation), [FR](https://pvc1989.github.io/ICCFD12/presentation)
   - Shock capturing: [limiter](https://pvc1989.github.io/phdthesis/presentation), [artificial viscosity](https://pvc1989.github.io/ICCFD12/presentation)
-  - Polymorphism: [`virtual`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/class/inheritance.html), [`template`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/generic.html)
-  - Parallelism: [METIS](https://github.com/pvc1989/METIS), [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)
+  - Polymorphism: [`virtual`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/class/inheritance.html), [`template`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/generic.html), [`concept`/`requires`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#类型限制)
+  - Parallelism: [pvc1989/METIS](https://github.com/pvc1989/METIS), [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)
   - I/O: [CGNS](https://pvc1989.github.io/miniWiki/programming/mesh/cgns.html), [VTK](https://pvc1989.github.io/miniWiki/programming/mesh/vtk.html)
-  - Build: [CMake](https://pvc1989.github.io/miniWiki/programming/languages/cpp/make.html#cmake)
+  - Build: [CMake](https://pvc1989.github.io/miniWiki/programming/languages/cpp/make.html#cmake)、[Github Actions](https://github.com/pvc1989/miniCFD/actions)
   - Test: [Google Test](https://pvc1989.github.io/miniWiki/programming/languages/cpp/unittest.html#google-test), [CTest](https://pvc1989.github.io/miniWiki/programming/languages/cpp/unittest.html#ctest)
-  - CI/CD: [Github Actions](https://github.com/pvc1989/miniCFD/actions)
   - C++20: [`concept`/`requires`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#类型限制), [`<concepts>`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#concepts), [`<ranges>`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#ranges)
 
 [miniWiki](https://github.com/pvc1989/miniWiki)
 : This repo maintains tutorials for self-study and cheatsheets for daily work.
 : Main topics:
-  - Mathematics
+  - Mathematics (real/complex/functional/tensor analysis, ODEs and PDEs)
   - Physics ([analytical mechanics](https://pvc1989.github.io/miniWiki/physics/analytical_mechanics.html), [quantum mechanics](https://pvc1989.github.io/miniWiki/physics/quantum_mechanics.html), [fluid mechanics](https://pvc1989.github.io/miniWiki/physics/continuum/))
   - Algorithms ([data structures](https://pvc1989.github.io/miniWiki/algorithms/data_structures/))
   - Programming ([CSAPP](https://pvc1989.github.io/miniWiki/programming/csapp.html), [Linux](https://pvc1989.github.io/miniWiki/programming/linux.html), [C++](https://pvc1989.github.io/miniWiki/programming/languages/cpp.html), [Python](https://pvc1989.github.io/miniWiki/programming/languages/python.html), [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html), [UML](https://pvc1989.github.io/miniWiki/programming/design/uml.html), [design patterns](https://pvc1989.github.io/miniWiki/programming/design/patterns.html))
