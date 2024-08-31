@@ -119,6 +119,20 @@ title: 简历
 
 ### <i class="fa-solid fa-server"></i> 并发与并行编程
 
-- 基于 [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) 及**网络文件系统**，[搭建局域网及 CPU 机群](https://pvc1989.github.io/miniWiki/programming/mpi.html#平台搭建)。
-- 在 [miniCFD](https://github.com/pvc1989/miniCFD/) 中，用 [METIS](https://github.com/pvc1989/METIS) 对非结构网格分区，基于 [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html) 的**非阻塞通信**将计算与通信重叠。
-- 在 [`proxy` 实验](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html) 中，利用 [POSIX threads](http://pvc1989.github.io/miniWiki/programming/csapp/12_concurrent_programming.html#32-pthread) 支持**多线程并发**。
+[平台搭建](https://pvc1989.github.io/miniWiki/programming/mpi.html#平台搭建)
+: 基于 [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) 及**网络文件系统 (NFS)**，搭建**局域网**（以太网段）及 **CPU 机群**（100 核心 / 5 结点）。
+
+[MPI](https://pvc1989.github.io/miniWiki/programming/mpi)
+: 在 [miniCFD](https://github.com/pvc1989/miniCFD/) 中
+  - 利用 [pvc1989/METIS](https://github.com/pvc1989/METIS) 对非结构网格分区，每个 [MPI](https://pvc1989.github.io/miniWiki/programming/mpi) 进程分别负责一块。
+  - 利用 `MPI_[Isend|Irecv|Waitall]` 等**非阻塞通信**接口，实现计算与通信重叠。
+
+POSIX
+: 在 [`proxy`](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html) 实验中
+  - 由单一主管线程监听并接收请求，由若干预先创建的工作线程负责响应。
+  - 利用 [`sem_t`](https://pvc1989.github.io/miniWiki/programming/csapp/12_concurrent_programming.html#semaphore)、[`pthread_mutex_t`](https://pvc1989.github.io/miniWiki/programming/csapp/12_concurrent_programming.html#pthread_mutex_t)、[`pthread_rwlock_t`](https://pvc1989.github.io/miniWiki/programming/csapp/12_concurrent_programming.html#pthread_rwlock_t) 等**同步**机制，确保**线程安全**地读写共享资源。
+
+[CUDA](http://pvc1989.github.io/miniWiki/programming/cuda)
+: 在 [miniCFD](https://github.com/pvc1989/miniCFD/) 中
+  - 利用**标量级**并发，批量后处理输出文件。
+  <!-- - 利用**单元级**并发，提升非结构网格质量。 -->

@@ -119,6 +119,20 @@ Keywords
 
 ### <i class="fa-solid fa-server"></i> Concurrent and Parallel Programming
 
-- [Build a LAN and a CPU cluster](https://pvc1989.github.io/miniWiki/programming/mpi.html#平台搭建) based on [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) and **network file system (NFS)**.
-- [miniCFD](https://github.com/pvc1989/miniCFD/) partitions unstructured grids by [METIS](https://github.com/pvc1989/METIS) and overlaps computation with communication via [MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)'s **non-blocking communications**.
-- The [`proxy` lab](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html) supports **multi-thread concurrency** by using [POSIX threads](http://pvc1989.github.io/miniWiki/programming/csapp/12_concurrent_programming.html#32-pthread).
+[Platform](https://pvc1989.github.io/miniWiki/programming/mpi.html#平台搭建)
+: Build a **LAN** (Ethernet segment) and a **CPU cluster** (100 cores / 5 nodes) based on [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) and **network file system (NFS)**.
+
+[MPI](https://pvc1989.github.io/miniWiki/programming/mpi)
+: In [miniCFD](https://github.com/pvc1989/miniCFD/),
+  - partitions unstructured grids by [pvc1989/METIS](https://github.com/pvc1989/METIS), each process takes charge of one part.
+  - overlaps computation with communication via the **non-blocking communication** interface including `MPI_[Isend|Irecv|Waitall]`.
+
+POSIX
+: In the [`proxy`](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html) lab,
+  - listens and accepts requests by a single supervisor thread and responses by a number of pre-created worker threads.
+  - ensures **thread-safe** I/O on shared resources via **synchronization** mechanisms including [`sem_t`](https://pvc1989.github.io/miniWiki/programming/csapp/12_concurrent_programming.html#semaphore), [`pthread_mutex_t`](https://pvc1989.github.io/miniWiki/programming/csapp/12_concurrent_programming.html#pthread_mutex_t) and [`pthread_rwlock_t`](https://pvc1989.github.io/miniWiki/programming/csapp/12_concurrent_programming.html#pthread_rwlock_t).
+
+[CUDA](http://pvc1989.github.io/miniWiki/programming/cuda)
+: In [miniCFD](https://github.com/pvc1989/miniCFD/),
+  - utilize **scalar-level** concurrency for post-processing output files in batch.
+  <!-- - utilize **element-level** concurrency for improving the quality of unstructured grids. -->
