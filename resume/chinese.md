@@ -112,7 +112,7 @@ title: 简历
   - `data` ([spec](http://csapp.cs.cmu.edu/3e/datalab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/data.html)) 用**位运算**实现逻辑、整型、浮点型运算。
   - `bomb` ([spec](http://csapp.cs.cmu.edu/3e/bomblab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/bomb.html)) 用 `gdb`/`lldb` 及 `objdump` 破译给定 **x86-64** 可执行文件中的密码。
   - `attack` ([spec](http://csapp.cs.cmu.edu/3e/attacklab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/attack.html)) 用**代码注入**及**面向返回编程**改变给定 **x86-64** 可执行文件的行为。
-  - `cache` ([spec](http://csapp.cs.cmu.edu/3e/cachelab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/cache.html)) 实现 CPU 缓存模拟器，统计**缓存命中**及**缓存丢失**次数。
+  - `cache` ([spec](http://csapp.cs.cmu.edu/3e/cachelab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/cache.html)) 实现 CPU 缓存模拟器，统计**缓存命中**及**缓存丢失**次数；以*缓存丢失*次数最少为目标，优化矩阵转置运算。
   - `shell` ([spec](http://csapp.cs.cmu.edu/3e/shlab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/shell.html)) 实现简易 Unix shell，支持**作业管理** (`fg`/`bg`, `jobs`) 及**信号处置** (`ctrl-c`, `ctrl-z`)。
   - `malloc` ([spec](http://csapp.cs.cmu.edu/3e/malloclab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/malloc.html)) 基于管理**虚拟存储**的系统调用，实现 `malloc()` 及 `free()`。
   - `proxy` ([spec](http://csapp.cs.cmu.edu/3e/proxylab.pdf), [ans](https://pvc1989.github.io/miniWiki/programming/csapp/labs/proxy.html)) 实现简易代理服务器，支持缓存 **HTTP 响应**及**多线程并发**。
