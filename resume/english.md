@@ -135,4 +135,4 @@ POSIX
 [CUDA](http://pvc1989.github.io/miniWiki/programming/cuda)
 : In [miniCFD](https://github.com/pvc1989/miniCFD/),
   - utilize **scalar-level** concurrency for post-processing output files in batch.
-  <!-- - utilize **element-level** concurrency for improving the quality of unstructured grids. -->
+  - overlaps computation with communication via the  `cudaStream_t` and `cudaEvent_t` for speeding up the generation of high-quality unstructured meshes.

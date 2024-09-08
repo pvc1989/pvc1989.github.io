@@ -135,4 +135,4 @@ POSIX
 [CUDA](http://pvc1989.github.io/miniWiki/programming/cuda)
 : 在 [miniCFD](https://github.com/pvc1989/miniCFD/) 中
   - 利用**标量级**并发，批量后处理输出文件。
-  <!-- - 利用**单元级**并发，提升非结构网格质量。 -->
+  - 利用 `cudaStream_t`、`cudaEvent_t`，实现 GPU 计算与数据转移重叠，从而加速高质量非结构网格生成。
