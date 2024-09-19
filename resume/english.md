@@ -51,7 +51,7 @@ Keywords
 
 - Yang M, Li S and **Pei W** (corresponding). [Combination of Advanced Actuator Line/Disk Model and High-Order Unstructured Finite Volume Solver for Helicopter Rotors](https://doi.org/10.3390/aerospace11040296). *Aerospace*, 2024, 11(4): 296.
 
-- **Pei W**, Jiang Y and Li S. [High-Order CFD Solvers on Three-Dimensional Unstructured Meshes: Parallel Implementation of RKDG Method with WENO Limiter and Momentum Sources](https://doi.org/10.3390/app12094228). *Aerospace*, 2022, 9(7): 372.
+- **Pei W**, Jiang Y and Li S. [High-Order CFD Solvers on Three-Dimensional Unstructured Meshes: Parallel Implementation of RKDG Method with WENO Limiter and Momentum Sources](https://doi.org/10.3390/aerospace9070372). *Aerospace*, 2022, 9(7): 372.
 
 - **Pei W**, Jiang Y and Li S. [An Efficient Parallel Implementation of the Runge–Kutta Discontinuous Galerkin Method with Weighted Essentially Non-Oscillatory Limiters on Three-Dimensional Unstructured Meshes](https://doi.org/10.3390/app12094228). *Applied Sciences*, 2022, 12(9): 4228.
 
