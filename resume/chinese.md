@@ -47,19 +47,25 @@ title: 简历
 关键词
 :   舰载直升机，气动干扰，旋翼空气动力学，间断伽辽金有限元法，加权基本无振荡重构，非定常动量源模型
 
+:   ![](https://pvc1989.github.io/phdthesis/thesis/figures/ship/a=45_p=3/animation.gif)
+
 ### 期刊论文
 
 - Yang M, Li S and **Pei W** (corresponding). [Combination of Advanced Actuator Line/Disk Model and High-Order Unstructured Finite Volume Solver for Helicopter Rotors](https://doi.org/10.3390/aerospace11040296). *Aerospace*, 2024, 11(4): 296.
+  - ![](https://www.mdpi.com/aerospace/aerospace-11-00296/article_deploy/html/images/aerospace-11-00296-g029.png)
 
 - **Pei W**, Jiang Y and Li S. [High-Order CFD Solvers on Three-Dimensional Unstructured Meshes: Parallel Implementation of RKDG Method with WENO Limiter and Momentum Sources](https://doi.org/10.3390/aerospace9070372). *Aerospace*, 2022, 9(7): 372.
+  - ![](https://www.mdpi.com/aerospace/aerospace-09-00372/article_deploy/html/images/aerospace-09-00372-g027.png)
 
 - **Pei W**, Jiang Y and Li S. [An Efficient Parallel Implementation of the Runge–Kutta Discontinuous Galerkin Method with Weighted Essentially Non-Oscillatory Limiters on Three-Dimensional Unstructured Meshes](https://doi.org/10.3390/app12094228). *Applied Sciences*, 2022, 12(9): 4228.
+  - ![](https://www.mdpi.com/applsci/applsci-12-04228/article_deploy/html/images/applsci-12-04228-g022.png)
 
 - Wang X, **Pei W** and S Atluri. [Bifurcation & chaos in nonlinear structural dynamics: Novel & highly efficient optimal-feedback accelerated Picard iteration algorithms](https://doi.org/10.1016/j.cnsns.2018.05.008). *Communications in Nonlinear Science and Numerical Simulation*, 2018, 65: 54-69.
 
 ### 会议报告
 
 - **Pei W** and Ren Y. [A Novel Energy-based Artificial Viscosity for Suppressing Numerical Oscillations in Discontinuous Galerkin and Flux Reconstruction Schemes](https://pvc1989.github.io/ICCFD12/presentation). [*12th International Conference on Computational Fluid Dynamics (ICCFD12)*](https://confit.atlas.jp/guide/event/iccfd12/subject/5-C-01/), July 15-19, 2024, Kobe, Japan.
+  - ![](https://pvc1989.github.io/ICCFD12/riemann2d/h=1e-2_p=3/animation.gif)
 
 - **Pei W** and Li S. Computational Method for the Aeromechanical Behaviors of a Rotorcraft in Vortex Ring State. [*International Conference on Computational & Experimental Engineering and Sciences 2015 (ICCES2015)*](https://www.iccesconf.org/), July 20-24, 2015, Reno, USA.
 
