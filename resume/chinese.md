@@ -78,9 +78,11 @@ CNSNS 2018
 
 ### 会议报告
 
-ICCFD 12
+ICCFD 2024
 : **Pei W** and Ren Y. [A Novel Energy-based Artificial Viscosity for Suppressing Numerical Oscillations in Discontinuous Galerkin and Flux Reconstruction Schemes](https://pvc1989.github.io/ICCFD12/presentation). [*12th International Conference on Computational Fluid Dynamics (ICCFD12)*](https://confit.atlas.jp/guide/event/iccfd12/subject/5-C-01/), July 15-19, 2024, Kobe, Japan.
-  ![](https://pvc1989.github.io/ICCFD12/riemann2d/h=1e-2_p=3/animation.gif)
+
+  |:---:|
+  | <a href id="riemann2d_planar"></a>[![](https://pvc1989.github.io/ICCFD12/riemann2d/h=1e-2_p=3/animation.gif)](#riemann2d_warpped) |
 
 ----
 
@@ -123,7 +125,7 @@ ICCES 2015
 
 ### <i class="fa-solid fa-arrow-up-a-z"></i> 数据结构及算法
 
-[LeetCode](https://leetcode.com/u/pvc1989/)
+[![](../images/leetcode_coin.gif)](https://leetcode.com/u/pvc1989/)
 : - ![LeetCode Stats](https://leetcard.jacoblin.cool/pvc1989?theme=light&ext=heatmap)
 
 ----
@@ -195,4 +197,4 @@ POSIX
 
   |  1  |  2  |
   |:---:|:---:|
-  | ![](../images/riemann2d_warpped.gif) | ![](../images/distmesh_hole.gif) |
+  | <a href id="riemann2d_warpped"></a>[![](../images/riemann2d_warpped.gif)](#riemann2d_planar) | ![](../images/distmesh_hole.gif) |
