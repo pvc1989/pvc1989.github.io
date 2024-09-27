@@ -22,8 +22,8 @@ body {
 h1 {
     font-size: 55px;
     color: #757575;
-    text-align:center;
-    margin-bottom:15px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 /* h1:hover { */
 /*     background-color: #757575; */
@@ -36,6 +36,7 @@ h2 {
     /* This is called "sectioncolor" in the ConTeXt stylesheet. */
     color: rgba(6, 89, 141, 0.769);
     text-align: center;
+    margin-bottom: 25px;
 }
 /* h2:hover { */
 /*     background-color: #397249; */
@@ -45,6 +46,7 @@ h2 {
 h3 {
     /* This is called "sectioncolor" in the ConTeXt stylesheet. */
     color: rgba(6, 89, 141, 0.769);
+    margin-bottom: 25px;
 }
 
 /* Definitions */
