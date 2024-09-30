@@ -87,7 +87,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> 首页'
                 href: /
-              - title: '<i class="fa-solid fa-address-card"></i> 简历'
+              - title: '<i class="fa-solid fa-address-card"></i> 个人简介'
                 href: /resume/chinese
               - title: '<i class="fa-solid fa-address-card"></i> Resume'
                 href: /resume/english

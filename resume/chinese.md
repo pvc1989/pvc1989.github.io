@@ -80,9 +80,10 @@ CNSNS 2018
 
 ICCFD 2024
 : **Pei W** and Ren Y. [A Novel Energy-based Artificial Viscosity for Suppressing Numerical Oscillations in Discontinuous Galerkin and Flux Reconstruction Schemes](https://pvc1989.github.io/ICCFD12/presentation). [*12th International Conference on Computational Fluid Dynamics (ICCFD12)*](https://confit.atlas.jp/guide/event/iccfd12/subject/5-C-01/), July 15-19, 2024, Kobe, Japan.
+  <a href id="riemann2d_planar"></a>
 
   |:---:|
-  | <a href id="riemann2d_planar"></a>[![](https://pvc1989.github.io/ICCFD12/riemann2d/h=1e-2_p=3/animation.gif)](#riemann2d_warpped) |
+  | [![](https://pvc1989.github.io/ICCFD12/riemann2d/h=1e-2_p=3/animation.gif)](#riemann2d_warpped) |
 
 ----
 
@@ -106,7 +107,7 @@ ICCES 2015
   - 多态：[`virtual`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/class/inheritance.html)、[`template`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/generic.html)、[`concept`/`requires`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#类型限制)
   - 并行：[pvc1989/METIS](https://github.com/pvc1989/METIS)、[MPI](https://pvc1989.github.io/miniWiki/programming/mpi.html)
   - 读写：[CGNS](https://pvc1989.github.io/miniWiki/programming/mesh/cgns.html), [VTK](https://pvc1989.github.io/miniWiki/programming/mesh/vtk.html)
-  - 构建：[CMake](https://pvc1989.github.io/miniWiki/programming/languages/cpp/make.html#cmake)、[Github Actions](https://github.com/pvc1989/miniCFD/actions)
+  - 构建：[CMake](https://pvc1989.github.io/miniWiki/programming/languages/cpp/make.html#cmake)、[GitHub Actions](https://github.com/pvc1989/miniCFD/actions)
   - 测试：[Google Test](https://pvc1989.github.io/miniWiki/programming/languages/cpp/unittest.html#google-test)、[CTest](https://pvc1989.github.io/miniWiki/programming/languages/cpp/unittest.html#ctest)
   - C++20：[`concept`/`requires`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#类型限制)、[`<concepts>`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#concepts)、[`<ranges>`](https://pvc1989.github.io/miniWiki/programming/languages/cpp/template/concept.html#ranges)
 
@@ -130,6 +131,7 @@ ICCES 2015
 
 ----
 
+Princeton's
 [![](https://algs4.cs.princeton.edu/cover.png)](https://github.com/pvc1989/assignments-algorithms-princeton)
 : - [`percolation`](https://pvc1989.github.io/assignments-algorithms-princeton/dir_b0ea575d0c5b8bf763650c6747a7cdc4.html) 基于**并查集**数据结构，通过**蒙特卡洛模拟**，寻找**渗透阈值**。
   - [`queues`](https://pvc1989.github.io/assignments-algorithms-princeton/dir_1216876c582b2d8bc8af271d600ae31a.html) 实现**两端队列**及**随机队列**数据结构。
@@ -146,6 +148,7 @@ ICCES 2015
 
 ### <i class="fa-brands fa-linux"></i> Linux 系统编程
 
+Carnegie Mellon's
 [![](http://csapp.cs.cmu.edu/3e/images/csapp3e-cover.jpg)](https://csapp.cs.cmu.edu/)
 : - [`data`](https://pvc1989.github.io/miniWiki/programming/csapp/labs/data.html) 用**位运算**实现逻辑、整型、浮点型运算。
   - [`bomb`](https://pvc1989.github.io/miniWiki/programming/csapp/labs/bomb.html) 用 `gdb`/`lldb` 及 `objdump` 破译给定 **x86-64** 可执行文件中的密码。
@@ -157,7 +160,7 @@ ICCES 2015
 
 ----
 
-### <i class="fa-solid fa-server"></i> 并发与并行编程
+### <i class="fa-solid fa-server"></i> 高性能计算实践
 
 [平台搭建](https://pvc1989.github.io/miniWiki/programming/mpi.html#平台搭建)
 : 基于 [SSH](https://pvc1989.github.io/miniWiki/programming/linux/ssh.html) 及**网络文件系统 (NFS)**，搭建**局域网**（以太网段）及 **CPU 机群**（100 核心 / 5 结点）。
