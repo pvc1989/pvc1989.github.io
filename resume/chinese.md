@@ -39,46 +39,69 @@ title: 个人简介
 
 ## 发表论文
 
-### <i class="fa-solid fa-graduation-cap"></i> 博士学位论文
+2015
+旋翼涡环
+自由尾迹
+简单并行
+: **Pei W** and Li S. Computational Method for the Aeromechanical Behaviors of a Rotorcraft in Vortex Ring State. [*International Conference on Computational & Experimental Engineering and Sciences 2015 (ICCES2015)*](https://www.iccesconf.org/), July 20-24, 2015, Reno, USA.
 
-标题
-:   [舰载直升机气动干扰计算方法研究](https://pvc1989.github.io/phdthesis/presentation)
-
-关键词
-:   舰载直升机，气动干扰，旋翼空气动力学，间断伽辽金有限元法，加权基本无振荡重构，非定常动量源模型
-
-:   ![](https://pvc1989.github.io/phdthesis/thesis/figures/ship/a=45_p=3/animation.gif)
-
-----
-
-### 期刊论文
-
-Aerospace 2024
-: Yang M, Li S and **Pei W** (corresponding). [Combination of Advanced Actuator Line/Disk Model and High-Order Unstructured Finite Volume Solver for Helicopter Rotors](https://doi.org/10.3390/aerospace11040296). *Aerospace*, 2024, 11(4): 296.
-  ![](https://www.mdpi.com/aerospace/aerospace-11-00296/article_deploy/html/images/aerospace-11-00296-g029.png)
+  |:---:|:---:|:---:|
+  | ![](../images/hover.svg) | ![](../images/forward.gif) | ![](../images/cpu40.png) |
 
 ----
 
-Aerospace 2022
-: **Pei W**, Jiang Y and Li S. [High-Order CFD Solvers on Three-Dimensional Unstructured Meshes: Parallel Implementation of RKDG Method with WENO Limiter and Momentum Sources](https://doi.org/10.3390/aerospace9070372). *Aerospace*, 2022, 9(7): 372.
-  ![](https://www.mdpi.com/aerospace/aerospace-09-00372/article_deploy/html/images/aerospace-09-00372-g027.png)
+2018
+: Wang X, **Pei W** and S Atluri. [Bifurcation & chaos in nonlinear structural dynamics: Novel & highly efficient optimal-feedback accelerated Picard iteration algorithms](https://doi.org/10.1016/j.cnsns.2018.05.008). *Communications in Nonlinear Science and Numerical Simulation*, 2018, 65: 54-69.
 
 ----
 
-App.Sci. 2022
+2022a
+有限元
+间断伽辽金
+WENO 限制器
+MPI 并行
 : **Pei W**, Jiang Y and Li S. [An Efficient Parallel Implementation of the Runge–Kutta Discontinuous Galerkin Method with Weighted Essentially Non-Oscillatory Limiters on Three-Dimensional Unstructured Meshes](https://doi.org/10.3390/app12094228). *Applied Sciences*, 2022, 12(9): 4228.
   ![](https://www.mdpi.com/applsci/applsci-12-04228/article_deploy/html/images/applsci-12-04228-g022.png)
 
 ----
 
-CNSNS 2018
-: Wang X, **Pei W** and S Atluri. [Bifurcation & chaos in nonlinear structural dynamics: Novel & highly efficient optimal-feedback accelerated Picard iteration algorithms](https://doi.org/10.1016/j.cnsns.2018.05.008). *Communications in Nonlinear Science and Numerical Simulation*, 2018, 65: 54-69.
+2022b
+有限元
+间断伽辽金
+WENO 限制器
+MPI 并行
+动量源模型
+: **Pei W**, Jiang Y and Li S. [High-Order CFD Solvers on Three-Dimensional Unstructured Meshes: Parallel Implementation of RKDG Method with WENO Limiter and Momentum Sources](https://doi.org/10.3390/aerospace9070372). *Aerospace*, 2022, 9(7): 372.
+  ![](https://www.mdpi.com/aerospace/aerospace-09-00372/article_deploy/html/images/aerospace-09-00372-g027.png)
 
 ----
 
-### 会议报告
+2022c
+有限元
+间断伽辽金
+WENO 限制器
+MPI 并行
+动量源模型
+:   [舰载直升机气动干扰计算方法研究](https://pvc1989.github.io/phdthesis/presentation)
+    ![](https://pvc1989.github.io/phdthesis/thesis/figures/ship/a=45_p=3/animation.gif)
 
-ICCFD 2024
+----
+
+2024a
+有限体积
+变分重构
+WBAP 限制器
+动量源模型
+: Yang M, Li S and **Pei W** (corresponding). [Combination of Advanced Actuator Line/Disk Model and High-Order Unstructured Finite Volume Solver for Helicopter Rotors](https://doi.org/10.3390/aerospace11040296). *Aerospace*, 2024, 11(4): 296.
+  ![](https://www.mdpi.com/aerospace/aerospace-11-00296/article_deploy/html/images/aerospace-11-00296-g029.png)
+
+----
+
+2024b
+有限元/谱元
+间断伽辽金
+通量重构
+人工黏性
 : **Pei W** and Ren Y. [A Novel Energy-based Artificial Viscosity for Suppressing Numerical Oscillations in Discontinuous Galerkin and Flux Reconstruction Schemes](https://pvc1989.github.io/ICCFD12/presentation). [*12th International Conference on Computational Fluid Dynamics (ICCFD12)*](https://confit.atlas.jp/guide/event/iccfd12/subject/5-C-01/), July 15-19, 2024, Kobe, Japan.
   <a href id="riemann2d_planar"></a>
 
@@ -87,22 +110,22 @@ ICCFD 2024
 
 ----
 
-ICCES 2015
-: **Pei W** and Li S. Computational Method for the Aeromechanical Behaviors of a Rotorcraft in Vortex Ring State. [*International Conference on Computational & Experimental Engineering and Sciences 2015 (ICCES2015)*](https://www.iccesconf.org/), July 20-24, 2015, Reno, USA.
-
-  |:---:|:---:|:---:|
-  | ![](../images/hover.svg) | ![](../images/forward.gif) | ![](../images/cpu40.png) |
-
-----
-
-即将发表
-: 基于高阶有限体积格式的 UH60A 直升机旋翼--机身气动干扰模拟
+2024c（预计）
+有限体积
+变分重构
+WBAP 限制器
+动量源模型
+: Yang M, **Pei W** and Li S. 基于高阶有限体积格式的 UH60A 直升机旋翼--机身气动干扰模拟（暂拟）
   ![](../images/UH60A.gif)
 
 ----
 
-即将发表
-: 基于 DESEM 的 LES 建模方法及其在非稳态湍流中的应用
+2024d（预计）
+有限元/谱元
+间断伽辽金
+分裂形式
+大涡模拟
+: Gao M, **Pei W** and Ren Y. 基于 DESEM 的 LES 建模方法及其在非稳态湍流中的应用（暂拟）
 
   |:---:|:---:|
   | ![](../images/underbelly.jpg) | <video height="240" controls><source src="../images/underbelly.mp4" type="video/mp4">Your browser does not support the video tag.</video> |
