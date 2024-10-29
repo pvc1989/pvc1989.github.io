@@ -95,6 +95,20 @@ ICCES 2015
 
 ----
 
+即将发表
+: 基于高阶有限体积格式的 UH60A 直升机旋翼--机身气动干扰模拟
+  ![](../images/UH60A.gif)
+
+----
+
+即将发表
+: 基于 DESEM 的 LES 建模方法及其在非稳态湍流中的应用
+
+  |:---:|:---:|
+  | ![](../images/underbelly.jpg) | <video height="240" controls><source src="../images/underbelly.mp4" type="video/mp4">Your browser does not support the video tag.</video> |
+
+----
+
 ## 编程经验
 
 ### <i class="fa-brands fa-github"></i> 个人代码仓库
